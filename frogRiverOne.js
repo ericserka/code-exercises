@@ -23,7 +23,7 @@ In second 6, a leaf falls into position 5. This is the earliest time when leaves
 
 Write a function:
 
-class Solution { public int solution(int X, int[] A); }
+function solution(X, A);
 
 that, given a non-empty array A consisting of N integers and integer X, returns the earliest time when the frog can jump to the other side of the river.
 
