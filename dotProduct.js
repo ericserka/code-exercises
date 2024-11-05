@@ -48,14 +48,6 @@ const tupleSolution = (nums1, nums2) => {
 }
 
 const mapSolution = (nums1, nums2) => {
-  const map = new Map()
-
-  for (let i = 0; i < nums2.length; i++) {
-    if (nums2[i] !== 0) {
-      map.set(i, nums2[i])
-    }
-  }
-
   const sparseVector = (nums) => {
     const map = new Map()
 
